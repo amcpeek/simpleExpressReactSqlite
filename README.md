@@ -1,5 +1,7 @@
 # simpleExpressReactSqlite
 
+![Coffee Menu](Coffee.png "Coffee Menu")
+
 
 ## Set Up Instructions
 
