@@ -1,17 +1,23 @@
 # simpleExpressReactSqlite
 
 
-# To Set Up the SQLite db
+## Set Up Instructions
 
-sqlite3 dev.db
+* install express in a backend folder
+* install the create react app in a frontend folder
+* use sqlite3 to set up the database
+* do not use squelize, just create the table and seed data through the command line
+* type into the command line:
+* sqlite3 dev.db
 
-CREATE TABLE coffee (
+
+* `CREATE TABLE coffee (
    id INTEGER PRIMARY KEY,
    name TEXT NOT NULL,
    description TEXT NOT NULL
-);
+);`
 
-INSERT INTO coffee (name, description) VALUES
+* `INSERT INTO coffee (name, description) VALUES
   ("Espresso", "A strong and concentrated coffee, usually served in small shots."),
   ("Cappuccino", "An espresso-based drink topped with frothed milk and a sprinkle of cocoa powder."),
   ("Latte", "A milky coffee made with espresso and steamed milk."),
@@ -22,4 +28,8 @@ INSERT INTO coffee (name, description) VALUES
   ("French press", "A coffee-making method where coffee grounds are steeped in hot water and then filtered."),
   ("Pour over", "A coffee-making method where hot water is slowly poured over coffee grounds in a filter."),
   ("Turkish coffee", "A coffee-making method where finely ground coffee is boiled in a pot with water and sugar.")
-  ;
+  ;`
+
+  * use nodemon to start the backend
+  * use npm start to start the frontend
+  * in the browser at localhost:3000 you can create menu items, delete them, and view them
