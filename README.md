@@ -21,4 +21,5 @@ INSERT INTO coffee (name, description) VALUES
   ("Iced coffee", "A cold coffee drink, usually served with ice and milk."),
   ("French press", "A coffee-making method where coffee grounds are steeped in hot water and then filtered."),
   ("Pour over", "A coffee-making method where hot water is slowly poured over coffee grounds in a filter."),
-  ("Turkish coffee", "A coffee-making method where finely ground coffee is boiled in a pot with water and sugar.");
+  ("Turkish coffee", "A coffee-making method where finely ground coffee is boiled in a pot with water and sugar.")
+  ;

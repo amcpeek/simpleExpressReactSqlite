@@ -22,11 +22,7 @@ app.get('/', (req, res) => {
   res.json({message: row})
 })
 
-// app.post('/', (req, res) => {
-//   const {name, description} = req.body
-//   const inserted = db.prepare(`INSERT INTO coffee (name, description) VALUES (${req.body.name}, ${req.body.description})`);
-//   res.json({message: "success!"})
-// })
+
 app.post('/', (req, res) => {
   const { name, description } = req.body;
   // console.log('why not req body', req)
@@ -48,7 +44,3 @@ app.delete('/:id', async(req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
-
-
-// INSERT INTO coffee (name, description)
-// VALUES ('Black', 'just coffee'), ('Latte', 'espresso and steamed milk'), ('Cappuccino', 'espresso steamed milk and foam');
