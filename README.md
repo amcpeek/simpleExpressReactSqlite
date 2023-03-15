@@ -4,8 +4,39 @@
 ## Set Up Instructions
 
 * install express in a backend folder
-* install the create react app in a frontend folder
+* https://expressjs.com/en/starter/hello-world.html
+
+* install the create react app in a frontend folder (remember to remove .git)
+* https://reactjs.org/tutorial/tutorial.html
+* Not sure these links were helpful:
+* https://rapidapi.com/blog/create-react-app-express/
+* https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
+
+* Simple set up of a fetch directly from a component
+* https://dev.to/salarc123/how-to-connect-a-react-frontend-with-a-nodejs-express-backend-50i9
+* https://codedamn.com/news/reactjs/how-to-connect-react-with-node-js
+
+* Must set up cores:
+* https://www.robinwieruch.de/node-js-express-tutorial/
+
+* Do not need all these headers, but do need the content type application json:
+* https://stackoverflow.com/questions/43871637/no-access-control-allow-origin-header-is-present-on-the-requested-resource-whe
+
 * use sqlite3 to set up the database
+* I looked here first, but I don't think it had what I needed:
+* https://geshan.com.np/blog/2021/10/nodejs-sqlite/
+* Better Sqlite3 helped me query the database directly:
+* https://www.npmjs.com/package/better-sqlite3
+* sql create and insert format reminders:
+* https://www.sqlitetutorial.net/sqlite-insert/
+* More sql prepare examples
+* https://www.tabnine.com/code/javascript/functions/sqlite3/Database/prepare
+* https://valadoc.org/sqlite3/Sqlite.Database.prepare.html
+
+* Body parser needed to parse JSON on the backend (must use JSON.stringify(value) on the frontend)
+* https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/
+
+
 * do not use squelize, just create the table and seed data through the command line
 * type into the command line:
 * sqlite3 dev.db
